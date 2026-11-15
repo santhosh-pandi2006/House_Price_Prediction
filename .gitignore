@@ -1,0 +1,46 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Jupyter temporary checkpoints
+.ipynb_checkpoints/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.vs/
+.history/
+*.swp
+*.swo
+*.orig
+*.bak
+*~
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# Local logs and temporary files
+*.log
+*.tmp
+
+# Project assets intentionally remain available to Git
+# dataset/, notebooks/, outputs/, model/house_price_model.pkl, src/, main.py,
+# requirements.txt, and README.md are not ignored.
